@@ -1,3 +1,5 @@
+Please read my [instructions](INSTRUCTIONS.md)
+
 # Coding Challenge
 #### Ultimaker Software Engineer (PHP) coding challenge
 

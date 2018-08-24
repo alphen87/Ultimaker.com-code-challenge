@@ -1,0 +1,29 @@
+{
+    "name": "alphen87/ultimaker-challenge",
+    "description": "Ultimaker Software Engineer (PHP) coding challenge",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^7.3"
+    },
+    "authors": [
+        {
+            "name": "Michiel van Alphen",
+            "email": "michiel@rocketsinthesky.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">=7.2.0",
+        "psr/container": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ultimaker\\Challenge\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "UltimakerTest\\Challenge\\": "test"
+        }
+    }
+}
